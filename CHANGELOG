@@ -1,0 +1,31 @@
+Changelog (Last Edit: Update v1.1 of Object Oriented Buttons)
+---------------------------------------------------------------
+
+Button API
+============================
+
+v1.1
+--------------
+- [Refactor]: Internal Functions of no front-end use encapsulated.
+- [Refactor]: Redraw's Added for Visibility changes, destruction, etc.
+
+- [Addition]: Ability to color text
+- [Addition]: New button.new() optional parameter (text_color)
+	-> Now is button.new(x, y, width, height, text, on, off, text_color, action)
+- [Addition]: New Button methods
+	-> Button:setTextColor(color)
+	-> Button:getTextColor()
+	-> Button:setVisible(boolean)
+	-> Button:isVisible()
+- [Addition]: Ability to destroy Button's and ButtonGroup's properly. (:destroy)
+- [Addition]: Visibility Property for Button's (:setVisible(bool), :isVisible())
+- [Addition]: ButtonGroup:clear()
+
+- [Internal]: Encapsulated forceClear Function, ignores visibility
+- [Internal]: Encapsulated redraw Function
+- [Internal]: Math Functions (mod, round, etc) encapsulated
+- [Internal]: Utility Functions (foreach, foreachi) encapsulated
+- [Internal]: local deregister function, user does not need this
+-------------- 
+
+============================

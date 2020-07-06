@@ -1,0 +1,87 @@
+commit cbcd18d495448c13c209b7eed46ed9ca17bbe171
+Author: Matthew Crocco <matthewcrocco@gmail.com>
+Date:   Sun Jul 26 20:26:44 2015 -0400
+
+    Improvements
+
+commit 92bae5b380b9d792b9f85549327eb326f0ca9e79
+Author: Matthew Crocco <matthewcrocco@gmail.com>
+Date:   Thu Jul 23 17:54:37 2015 -0400
+
+    Cleanup for Validation and now includes logging functions which are available as global functions
+
+commit a3ddcca7680852e09c1a00168188e16544086c01
+Author: Matthew Crocco <matthewcrocco@gmail.com>
+Date:   Tue Jul 21 02:06:07 2015 -0400
+
+    Initial Commit of Configuration Module (It's Been a While!)
+    
+    This is nearly a direct port of my implementation used in RoboLib (Robot Library for FRC Bots) which is directly inspired by MinecraftForge's implementation of Configuration. This direct inspiration is obvious, even in the code. Needs serious linting as a port but works fairly well.... but I am sure bugs pop up as they do.
+
+commit b3fcd4da0d31c8238548f3e5aa0c653abcbb9267
+Author: MatthewC529 <matthewcrocco@gmail.com>
+Date:   Mon Aug 4 01:59:15 2014 -0400
+
+    Flexible Text Handling is Hard! But TextArea and TextField MOSTLY Work...
+    
+    This is basically like a checkpoint, I finally managed to take input! I just want the ability to fallback to a remote version.
+    
+    This is in Beta so you CAN use the Text Module but it is currently NOT Recommended, but is appreciated! It will have plenty of issues, I would appreciate the issue reports!
+
+commit 7ac153d6f276a69fc94a3dee685cc1923872e0ac
+Author: MatthewC529 <matthewcrocco@gmail.com>
+Date:   Sun Aug 3 04:01:34 2014 -0400
+
+    Began Writing new GUI Text Components module/API, it is coming along nicely.
+
+commit 78432e9f8ac84e4c1a0cebd88648b84305008746
+Author: MatthewC529 <matthewcrocco@gmail.com>
+Date:   Sat Aug 2 21:28:42 2014 -0400
+
+    Reduced Confusion, Only Push .lua Files for Syntax Highlighting
+
+commit 197bb2e8b60492928715c4071522d91e844a4ba8
+Author: MatthewC529 <matthewcrocco@gmail.com>
+Date:   Sat Aug 2 21:27:32 2014 -0400
+
+    Added Lua File for Syntax Highlighting
+
+commit 924ec5b80771e25090eb62b777df7f8e4d551189
+Author: MatthewC529 <matthewcrocco@gmail.com>
+Date:   Sat Aug 2 21:24:47 2014 -0400
+
+    Added Visibility Property and Ability to Destroy Objects
+    
+    Internal Functions encapsulated to prevent manipulation.
+    
+    For other changes see changelog.
+
+commit c9c47a7903092796cc552229d36b8a27040d7b6c
+Author: MatthewC529 <matthewcrocco@gmail.com>
+Date:   Fri Aug 1 05:58:37 2014 -0400
+
+    Quick Fix for Button Flash, Removed Coroutine (Troublesome with Events). New Idea.
+
+commit 8645ef2e84ec120d1b5aa87bbd01ef7a6c9f6ccd
+Author: MatthewC529 <matthewcrocco@gmail.com>
+Date:   Fri Aug 1 04:27:59 2014 -0400
+
+    Added Button API Pastebin v1.0
+
+commit 8b5c55b0878f19185e5035c4de8d3fcce41cf94c
+Author: MatthewC529 <matthewcrocco@gmail.com>
+Date:   Fri Aug 1 04:21:02 2014 -0400
+
+    Readme Update
+
+commit 5c9ce7de64c61a33d184e6388534b579065db615
+Author: MatthewC529 <matthewcrocco@gmail.com>
+Date:   Fri Aug 1 04:19:43 2014 -0400
+
+    Initial Commit + OOP Button API
+
+commit a2148ba41d2c69b256e58ed6ca57fd23b1330538
+Author: Matthew <matthewcrocco@gmail.com>
+Date:   Fri Aug 1 02:59:41 2014 -0400
+
+    Initial commit
